@@ -1,0 +1,115 @@
+# Er. Nishant Kumar
+## Software Engineer & Data Engineer
+
+**Email:** nishant8405006745@gmail.com  
+**Phone:** +91 8405006745  
+**Location:** New Delhi, India  
+**LinkedIn:** [linkedin.com/in/nishant-kumar](https://linkedin.com/in/nishant-kumar)  
+**GitHub:** [github.com/nishant-kumar](https://github.com/nishant-kumar)
+
+---
+
+## Professional Summary
+
+B.Tech graduate from Punjab Technical University with 2+ years of hands-on experience in software development, data analysis, and operations management at Longway India PVT LTD. Passionate about creating innovative solutions and managing complex operations through data-driven insights.
+
+---
+
+## Technical Skills
+
+### Frontend Development
+- **JavaScript** (90%) - ES6+, DOM manipulation, async programming
+- **HTML/CSS** (95%) - Semantic HTML, responsive design, CSS Grid/Flexbox
+- **React.js** (85%) - Component lifecycle, hooks, state management
+- **Vue.js** (80%) - Vue components, Vuex, Vue Router
+
+### Backend Development
+- **Node.js** (85%) - Express.js, RESTful APIs, middleware
+- **Python** (80%) - Data analysis, automation scripts, web scraping
+- **Express.js** (90%) - API development, authentication, database integration
+- **Java** (75%) - Object-oriented programming, Spring framework
+
+### Data & Analytics
+- **MS Excel** (95%) - Advanced formulas, pivot tables, data visualization
+- **Google Sheets** (90%) - Collaborative data management, automation
+- **Data Analysis** (85%) - Statistical analysis, data cleaning, insights generation
+- **Operations Management** (90%) - Process optimization, workflow management
+
+---
+
+## Professional Experience
+
+### Software Engineer & Data Analyst
+**Longway India PVT LTD** | *2022 - Present*
+
+- Developed and maintained comprehensive operations management system for R&D sales, client portals, and inventory tracking
+- Managed PAN India dealer data with automated verification and email communications
+- Implemented integrated customer support system for Carvele.com with real-time chat and ticket resolution
+- Coordinated cross-functional teams and optimized operational workflows
+- Created data-driven insights and reports for business decision making
+
+**Key Achievements:**
+- Reduced operational processing time by 40% through automation
+- Improved data accuracy by 95% with automated verification systems
+- Successfully managed 15+ projects from conception to deployment
+
+---
+
+## Education
+
+### Bachelor of Technology (B.Tech)
+**Punjab Technical University, RDJ College Lalru** | *2018 - 2022*
+- Specialization: Computer Science/Information Technology
+- Relevant Coursework: Data Structures, Database Management, Software Engineering
+
+---
+
+## Projects
+
+### Operations Management System
+- Comprehensive system for managing R&D sales, client portals, inventory tracking, and vehicle coordination
+- **Technologies:** MS Excel, Google Sheets, Data Analysis, Operations Management
+- **Impact:** Streamlined operations across multiple platforms
+
+### Dealer Data Management System
+- PAN India dealer data management with automated verification and email communications
+- **Technologies:** Data Management, Automation, Communication, CRM
+- **Impact:** Improved dealer onboarding process and data accuracy
+
+### Customer Support Platform
+- Integrated customer support system with real-time chat, call management, and automated ticket resolution
+- **Technologies:** Customer Support, Real-time Chat, Ticketing, Analytics
+- **Impact:** Enhanced customer satisfaction and support efficiency
+
+---
+
+## Certifications & Achievements
+
+- **Microsoft Excel Advanced Certification**
+- **Google Analytics Certified**
+- **Project Management Professional (PMP) - In Progress**
+- **AWS Cloud Practitioner - Planned**
+
+---
+
+## Languages
+
+- **English** - Fluent
+- **Hindi** - Native
+- **Punjabi** - Native
+
+---
+
+## Interests & Hobbies
+
+- Open Source Contribution
+- Data Science & Machine Learning
+- Web Development
+- Photography
+- Reading Technical Blogs
+- Contributing to Developer Communities
+
+---
+
+*This resume was generated on: [Current Date]*
+*Last Updated: [Current Date]*

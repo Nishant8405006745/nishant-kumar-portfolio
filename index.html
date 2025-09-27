@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Er. Nishant Kumar - Software Engineer & Data Engineer</title>
+    <meta name="description" content="Portfolio of Er. Nishant Kumar - Software Engineer and Data Analyst with 2+ years of experience in operations management and analytics.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css?v=2.0">
+</head>
+<body>
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress" id="scroll-progress"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-container">
+                <!-- Logo Section -->
+                <div class="nav-logo">
+                    <div class="logo-icon">👨‍💻</div>
+                    <span class="logo-text">Er. Nishant Kumar</span>
+                </div>
+                
+                <!-- Desktop Navigation Menu -->
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                
+                <!-- Action Buttons -->
+                <div class="nav-actions">
+                    <button class="btn btn-resume-nav" id="download-resume-nav">
+                        <i class="fas fa-download"></i>
+                        <span class="btn-text">Download Resume</span>
+                    </button>
+                    <button class="btn btn-share" id="share-btn" aria-label="Share Portfolio">
+                        <i class="fas fa-share-alt"></i>
+                        <span class="btn-text">Share</span>
+                    </button>
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                        <span class="theme-icon">🌙</span>
+                    </button>
+                    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Share Modal -->
+    <div id="share-modal" class="share-modal">
+        <div class="share-modal-content">
+            <div class="share-header">
+                <h3>Share Portfolio</h3>
+                <button class="close-share" id="close-share">&times;</button>
+            </div>
+            <div class="share-options">
+                <button class="share-option" data-platform="copy">
+                    <i class="fas fa-copy"></i>
+                    <span>Copy Link</span>
+                </button>
+                <button class="share-option" data-platform="whatsapp">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>WhatsApp</span>
+                </button>
+                <button class="share-option" data-platform="linkedin">
+                    <i class="fab fa-linkedin-in"></i>
+                    <span>LinkedIn</span>
+                </button>
+                <button class="share-option" data-platform="twitter">
+                    <i class="fab fa-twitter"></i>
+                    <span>Twitter</span>
+                </button>
+                <button class="share-option" data-platform="facebook">
+                    <i class="fab fa-facebook-f"></i>
+                    <span>Facebook</span>
+                </button>
+                <button class="share-option" data-platform="email">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text animate-fade-left">
+                    <h1>Hello, I'm <span class="highlight">Nishant Kumar</span></h1>
+                    <p class="subtitle">Software Engineer & Data Engineer</p>
+                    <p class="description">
+                        B.Tech graduate from Punjab Technical University with 2+ years of experience 
+                        in software development, data analysis, and operations management at Longway India PVT LTD. 
+                        Passionate about creating innovative solutions and managing complex operations.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-code"></i>
+                            View My Work
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-envelope"></i>
+                            Get In Touch
+                        </a>
+                        <a href="Nishant_Kumar_Resume.pdf" target="_blank" class="btn btn-resume" id="view-resume">
+                            <i class="fas fa-file-alt"></i>
+                            View My Resume
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-image animate-fade-right">
+                    <div class="profile-container" id="profile-container">
+                        <img src="profile.jpg" alt="Er. Nishant Kumar" class="profile-image" id="profile-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title animate-fade-up">About Me</h2>
+            <div class="about-content">
+                <div class="about-text animate-fade-up">
+                    <p>
+                        I'm a dedicated Software Engineer and Data Analyst with over 2 years of hands-on experience 
+                        in developing innovative solutions and managing complex operations. My journey began with a 
+                        B.Tech degree from Punjab Technical University, RDJ College Lalru, and has evolved into a 
+                        successful career at Longway India PVT LTD.
+                    </p>
+                    <p>
+                        My expertise lies in full-stack development, data analytics, operations management, and 
+                        coordinating cross-functional teams. I'm passionate about leveraging technology to solve 
+                        real-world problems and drive business growth through data-driven insights.
+                    </p>
+                </div>
+                
+                <div class="stats-grid">
+                    <div class="stat-card animate-fade-up">
+                        <div class="stat-number">2+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-card animate-fade-up">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-card animate-fade-up">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Technologies</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title animate-fade-up">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category animate-fade-left">
+                    <h3><i class="fas fa-code"></i> Frontend Development</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>JavaScript</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>HTML/CSS</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>React.js</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Vue.js</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category animate-fade-up">
+                    <h3><i class="fas fa-server"></i> Backend Development</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Node.js</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Python</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Express.js</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Java</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category animate-fade-right">
+                    <h3><i class="fas fa-chart-line"></i> Data Analyst</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>MS Excel</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Google Sheets</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Data Analysis</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Operations Management</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title animate-fade-up">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card animate-fade-up">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x200/6366f1/ffffff?text=Operations+Management" alt="Operations Management System">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Operations Management System</h3>
+                        <p class="project-description">
+                            Comprehensive operations management system for managing R&D sales, client portals, 
+                            inventory tracking, and vehicle coordination across multiple platforms.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">MS Excel</span>
+                            <span class="tech-tag">Google Sheets</span>
+                            <span class="tech-tag">Data Analysis</span>
+                            <span class="tech-tag">Operations</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate-fade-up">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x200/ec4899/ffffff?text=Dealer+Management" alt="Dealer Data Management">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Dealer Data Management System</h3>
+                        <p class="project-description">
+                            PAN India dealer data management system with automated verification, 
+                            email communications, and integrated customer support functionality.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Data Management</span>
+                            <span class="tech-tag">Automation</span>
+                            <span class="tech-tag">Communication</span>
+                            <span class="tech-tag">CRM</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate-fade-up">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x200/06b6d4/ffffff?text=Customer+Support" alt="Customer Support System">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Customer Support Platform</h3>
+                        <p class="project-description">
+                            Integrated customer support system for Carvele.com with real-time chat, 
+                            call management, and automated ticket resolution capabilities.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Customer Support</span>
+                            <span class="tech-tag">Real-time Chat</span>
+                            <span class="tech-tag">Ticketing</span>
+                            <span class="tech-tag">Analytics</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section">
+        <div class="container">
+            <h2 class="section-title animate-fade-in">What People Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card animate-slide-in-left">
+                    <div class="testimonial-content">
+                        <p>"Nishant is an exceptional software engineer with outstanding problem-solving skills. His attention to detail and commitment to quality is remarkable. He has been a valuable asset to our team at Capri Global."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-photo">
+                            <img src="https://via.placeholder.com/60x60/ec4899/ffffff?text=SA" alt="Sakshi Arora" class="author-image">
+                        </div>
+                        <div class="author-info">
+                            <h4>Sakshi Arora</h4>
+                            <span>Senior Manager, Capri Global Pvt Ltd</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card animate-slide-in-right">
+                    <div class="testimonial-content">
+                        <p>"Working with Nishant has been a pleasure. His expertise in data analysis and operations management has significantly improved our processes. His innovative approach to problem-solving is truly commendable."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-photo">
+                            <img src="https://via.placeholder.com/60x60/06b6d4/ffffff?text=NS" alt="Natasha Sarpal" class="author-image">
+                        </div>
+                        <div class="author-info">
+                            <h4>Natasha Sarpal</h4>
+                            <span>Director of Operations, Capri Global Pvt Ltd</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card animate-fade-in">
+                    <div class="testimonial-content">
+                        <p>"Nishant's innovative solutions and technical expertise have been instrumental in our project success. His dedication and professional approach make him a standout team member at Capri Global."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-photo">
+                            <img src="https://via.placeholder.com/60x60/10b981/ffffff?text=KS" alt="Kajal Sharma" class="author-image">
+                        </div>
+                        <div class="author-info">
+                            <h4>Kajal Sharma</h4>
+                            <span>Project Lead, Capri Global Pvt Ltd</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card animate-slide-in-left">
+                    <div class="testimonial-content">
+                        <p>"Nishant's technical skills and ability to manage complex operations are impressive. He consistently delivers high-quality work and has been a key contributor to our team's success at Capri Global."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-photo">
+                            <img src="https://via.placeholder.com/60x60/8b5cf6/ffffff?text=SS" alt="Sumit Sharma" class="author-image">
+                        </div>
+                        <div class="author-info">
+                            <h4>Sumit Sharma</h4>
+                            <span>Team Lead, Capri Global Pvt Ltd</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title animate-fade-up">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info animate-fade-left">
+                    <h3>Let's Connect</h3>
+                    <p>
+                        I'm always interested in discussing new opportunities, exciting projects, 
+                        and innovative solutions. Feel free to reach out!
+                    </p>
+                    
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>nishant8405006745@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 8405006745</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>New Delhi, India</span>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://wa.me/918405006745" target="_blank" class="social-link whatsapp-link" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/nishant-kumar-software-engineer" target="_blank" class="social-link linkedin-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/nishantkumar" target="_blank" class="social-link github-link" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://twitter.com/nishantkumar" target="_blank" class="social-link twitter-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://instagram.com/nishantkumar" target="_blank" class="social-link instagram-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://facebook.com/nishantkumar" target="_blank" class="social-link facebook-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://youtube.com/@nishantkumar" target="_blank" class="social-link youtube-link" aria-label="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <form class="contact-form animate-fade-right" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>About Me</h4>
+                    <p>Software Engineer & Data Analyst with 2+ years of experience in operations management and analytics. Passionate about creating innovative solutions.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <p><a href="#home">Home</a></p>
+                    <p><a href="#about">About</a></p>
+                    <p><a href="#skills">Skills</a></p>
+                    <p><a href="#projects">Projects</a></p>
+                    <p><a href="#contact">Contact</a></p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📧 nishant8405006745@gmail.com</p>
+                    <p>📱 +91 8405006745</p>
+                    <p>📍 New Delhi, India</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Er. Nishant Kumar. All rights reserved. Built with ❤️ and modern web technologies.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js?v=2.0"></script>
+</body>
+</html>
